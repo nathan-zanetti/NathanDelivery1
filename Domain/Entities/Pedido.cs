@@ -2,7 +2,7 @@
 
 namespace Domain.Entities
 {
-    public class Pedido : IPedido
+    public class Pedido
     {
         public int Id { get; set; }
         public int ClienteId { get;}

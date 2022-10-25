@@ -2,7 +2,7 @@
 
 namespace Domain.Entities
 {
-    public class Cliente : ICliente
+    public class Cliente
     {
 
         public int Id { get; set; }

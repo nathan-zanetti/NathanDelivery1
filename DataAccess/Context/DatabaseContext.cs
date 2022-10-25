@@ -1,7 +1,7 @@
 ﻿using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-
+using Microsoft.EntityFrameworkCore.Design;
 namespace DataAccess.Context
 {
     public class DatabaseContext : DbContext
